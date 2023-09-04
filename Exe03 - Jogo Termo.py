@@ -2,13 +2,20 @@
     Foi utilizado a lista disponibilizada no blackboard do jogo da forca,
     o programa só vai rodar caso esteja salvo em um diretorio com esse arquivo.
 
-    O arquivo contém palavras com acento, nao consegui indicativo pra quando a palavra tiver acentuacao,
-    afim de teste, é possivel tirar o comentario do 'print(palavra_sorteada)' para ver qual é a palavra.
+    O arquivo contém palavras com acento, não consegui indicativo pra quando a palavra possuir acentuação.
+    
+    Afim de teste, é possivel tirar o comentario do 'print(palavra_sorteada)' para ver qual é a palavra(linha 45).
 
-    Nao consegui utilizar cores no idle por conta disso a formatação ficou diferente
-    do jogo original. Quando a pessoa acerta a letra na posicao correta ela fica
-    maiuscula, quando acerta a letra mas a posição esta errada, é apontada uma 'flecha'(<<)
-    e quando a letra nao esta na palavra é impresso normal em minusculo
+   Estratégias Utilizadas:
+    Este é um jogo que desafia o jogador a adivinhar uma palavra de acordo com o número de letras especificado.
+    O jogo utiliza um arquivo de texto ("lista_palavras.txt") para carregar um conjunto de palavras determinado.
+    O jogador tem 6 chances para adivinhar a palavra correta, assim como no jogo original.
+    Durante cada tentativa, o programa fornece dicas sobre as letras corretas e na posição correta (em maiúsculo) e letras corretas mas na posição errada (com '<<' ao lado).
+    O jogo termina quando o jogador adivinha a palavra ou esgota todas as chances.
+    O jogador especifica o número de letras da palavra a ser adivinhada.
+    O programa seleciona aleatoriamente uma palavra da lista com o número correto de letras usando o módulo 'random'.
+
+
 """
 
 import random
