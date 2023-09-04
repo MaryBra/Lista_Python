@@ -1,3 +1,9 @@
+
+"""Estratégias Utilizadas:
+A função `imprime_tabuleiro` exibe o estado atual do tabuleiro após cada jogada, com linhas e colunas numeradas.
+A função `verifica_tabuleiro` verifica se um jogador venceu em alguma linha, coluna ou diagonal.
+O jogo continua até que um jogador vença ou ocorra um empate (deu velha)."""
+
 # Função para imprimir o tabuleiro
 def imprime_tabuleiro(t):
     for row in t:
