@@ -1,3 +1,13 @@
+"""
+Estratégias Utilizadas:
+Este é um jogo da velha estendido em um tabuleiro 4x4.
+A função 'imprime_tabuleiro' exibe o estado atual do tabuleiro após cada jogada.
+A função 'verifica_tabuleiro' verifica se um jogador venceu em alguma linha, coluna ou diagonal.
+O jogo continua até que um jogador vença ou ocorra um empate (deu velha).
+O tabuleiro é representado como uma lista 't' de 16 elementos, onde '_' indica uma posição vazia.
+O jogo é jogado em um tabuleiro 4x4, e as posições são numeradas de 1 a 16."""
+
+
 #Funcao que imprime o tabuleiro
 def imprime_tabuleiro(t):
     for indice in range(len(t)):
